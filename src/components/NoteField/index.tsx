@@ -27,7 +27,7 @@ function NoteField({
     if (status) setStatus("Saved");
     else setStatus("Opps Something went wrong");
     setTimeout(() => setStatus(""), 3000);
-  }, 2000);
+  }, 1000);
 
   useEffect(() => {
     debounce();
